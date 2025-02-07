@@ -142,6 +142,23 @@ img {
 
 /* mobile */
 
-@media screen and (max-width: 768px){
+@media screen and (max-width: 479px){
+
+    .container {
+        width: 100%;
+        margin: 0 auto;
+        padding: 0 20px;
+    }
+    
+    .row {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    body .container .col{
+        width: 100%;
+        margin: 30px 0px;
+    }
  
-}
